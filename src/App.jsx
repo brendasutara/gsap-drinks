@@ -8,13 +8,14 @@ import { useGSAP } from "@gsap/react";
 import { NutritionSection } from "./sections/NutritionSection";
 import BenefitSection from "./sections/BenefitSection";
 import { TestimonialSection } from "./sections/TestimonialSection";
+import FooterSection from "./sections/FooterSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const App = () => {
   useGSAP(() => {
     ScrollSmoother.create({
-      smooth: 1.5,
+      smooth: 2,
       effects: true,
     });
   });
@@ -31,7 +32,7 @@ const App = () => {
             <BenefitSection />
             <TestimonialSection />
           </div>
-          <div className="h-screen border border-pink-500"></div>
+          <FooterSection />
         </div>
       </div>
     </main>

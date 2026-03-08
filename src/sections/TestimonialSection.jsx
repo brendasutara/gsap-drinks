@@ -66,7 +66,7 @@ export const TestimonialSection = () => {
   };
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section 2xl:mb-40 mb-0">
       <div className="absolute size-full flex flex-col items-center pt-[5vw]">
         <h1 className="text-black first-title">What's</h1>
         <h1 className="text-light-brown second-title">Everyone</h1>
